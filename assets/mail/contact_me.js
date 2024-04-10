@@ -24,7 +24,7 @@ $(function () {
             var json = {name: name, phone: phone, email: email, message: message}
             $.ajax({
                 // --- CHANGE THIS LINE TO YOUR OWN API GATEWAY  -------- 
-                url: "https://e20z85tqv0.execute-api.eu-west-1.amazonaws.com/default/Sagwadi_Lambda_funtion,
+                url: "https://d71230a28k.execute-api.eu-west-1.amazonaws.com/default/Sagwadi_Lambda_function_cloud_computing"
                 // ------------------------------------------------------  
                 type: "POST",
                 data: JSON.stringify(json),
