@@ -24,7 +24,7 @@ $(function () {
             var json = {name: name, phone: phone, email: email, message: message}
             $.ajax({
                 // --- CHANGE THIS LINE TO YOUR OWN API GATEWAY  -------- 
-                url: "https://dinnss4etc.execute-api.eu-west-1.amazonaws.com/Sagwadi/Sagwadi_Lambda_function_cloud_computing"
+                url: "https://eu-west-1.console.aws.amazon.com/apigateway/main/api-detail?api=dinnss4etc&region=eu-west-1"
                 // ------------------------------------------------------  
                 type: "POST",
                 data: JSON.stringify(json),
